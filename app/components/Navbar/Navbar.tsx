@@ -17,7 +17,7 @@ export default function Navbar() {
   const pathname = usePathname();
 
   return (
-    <nav className="flex items-center justify-end p-1 fixed top-4 right-4 bg-white shadow-lg rounded-full">
+    <nav className="flex items-center justify-end p-1 fixed top-4 right-4 bg-white shadow-lg rounded-full z-10">
       <div className="flex items-center gap-x-1 rounded-md">
         {options.map((o, index) => (
           <Link

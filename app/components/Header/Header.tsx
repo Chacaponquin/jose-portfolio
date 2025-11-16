@@ -13,7 +13,7 @@ export default function Header() {
         <Image
           src="/profile.webp"
           alt="Jose profile"
-          className="rounded-full w-36 h-36"
+          className="rounded-full w-36 h-36 object-top"
           width={160}
           height={160}
           loading="eager"

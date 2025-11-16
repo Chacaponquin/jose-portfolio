@@ -1,6 +1,9 @@
 "use client";
 
+import Code from "@/app/shared/icons/components/Code";
 import Home from "@/app/shared/icons/components/Home";
+import People from "@/app/shared/icons/components/People";
+import Star from "@/app/shared/icons/components/Star";
 import clsx from "clsx";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -8,9 +11,9 @@ import React from "react";
 
 const options = [
   { name: "Home", icon: Home, link: "/" },
-  { name: "About", icon: Home, link: "/about" },
-  { name: "Skills & Technologies", icon: Home, link: "/skills" },
-  { name: "Projects", icon: Home, link: "/projects" },
+  { name: "About", icon: People, link: "/about" },
+  { name: "Skills & Technologies", icon: Code, link: "/skills" },
+  { name: "Projects", icon: Star, link: "/projects" },
 ];
 
 export default function Navbar() {

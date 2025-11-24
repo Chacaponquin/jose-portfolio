@@ -1,8 +1,8 @@
 import Image from "next/image";
 
 const skills = [
-  "Physics Enthusiast",
-  "Student",
+  "Web Enthusiast",
+  "Computer Engineer",
   "Open-Source Contributor",
 ].join("   .   ");
 

@@ -8,8 +8,10 @@ import Code from "../shared/icons/components/Code";
 import SkillsScroll from "../shared/components/SkillsScroll/SkillsScroll";
 import {
   CORE_LANGUAGES_SKILLS,
+  IA_SKILLS,
   WEB_SKILLS,
 } from "../components/Skills/domain/skill";
+import Book from "../shared/icons/components/Book";
 
 export const metadata: Metadata = {
   title: MetadataBuilder.title("Skills"),
@@ -28,10 +30,18 @@ export default function Page() {
 
       <Section
         icon={Code}
-        title="Web & AI Technologies"
-        description="Technologies I use for web projects, data analysis, and AI."
+        title="Web Development"
+        description="Technologies I use for web projects."
       >
         <SkillsScroll direction="right" skills={WEB_SKILLS} />
+      </Section>
+
+      <Section
+        icon={Book}
+        title="AI Technologies"
+        description="Technologies I use for data analysis, and AI."
+      >
+        <SkillsScroll direction="left" skills={IA_SKILLS} />
       </Section>
     </InfoLayout>
   );

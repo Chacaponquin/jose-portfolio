@@ -1,7 +1,6 @@
 import React from "react";
 import InfoLayout from "../shared/components/InfoLayout/InfoLayout";
 import AboutCard from "../components/AboutCard/AboutCard";
-import Home from "../shared/icons/components/Home";
 import { Metadata } from "next";
 import { MetadataBuilder } from "../shared/domain/helpers/metadata-builder";
 import Book from "../shared/icons/components/Book";
@@ -22,13 +21,13 @@ export default function Page() {
         <AboutCard
           icon={Book}
           title="My Studies"
-          description="I'm currently a high school student focusing on Physics, Chemistry, Math, and Biology (PCMB). I find the fundamental principles of science deeply fascinating and enjoy the process of learning how the world works."
+          description="I'm a Computer Engineer specialized in backend development. My passion is designing scalable and efficient software architectures. I enjoy the challenge of transforming business logic into robust and well-structured code, creating solutions that not only solve the immediate problem but are also easy to maintain and scale in the future."
         />
 
         <AboutCard
           icon={Telescope}
           title="Curiosity & Hobbies"
-          description="Outside of my core subjects, I have a strong interest in electronics and how software and hardware can work together. For the past few years, I've enjoyed tinkering with Arduino and ESP boards, and I'm always trying to learn more about C, Python, and using tools like Git."
+          description="I’m a software developer who loves building clean and purposeful solutions. Outside of coding, I enjoy exploring new tech, creating small side projects, and diving into hobbies like gaming, photography, and electronic music. Always learning, experimenting, and trying to make things work better."
         />
 
         <AboutCard

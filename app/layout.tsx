@@ -16,7 +16,7 @@ export default function RootLayout({
 
           <Navbar />
 
-          <main className="w-full max-w-[950px] flex flex-col grow">
+          <main className="w-full max-w-[900px] flex flex-col grow">
             <div className="flex flex-col grow w-full">{children}</div>
 
             <Footer />
